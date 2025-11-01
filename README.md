@@ -15,6 +15,7 @@ A fun, spooky Halloween web app that dares user - beware of what happens next!
 ---
 
 ## 📂 Project Setup
-``` git clone https://github.com/Paila-Sahitya/the-halloween-dare
+```bash
+git clone https://github.com/Paila-Sahitya/the-halloween-dare
 npm install 
 npm run dev```
