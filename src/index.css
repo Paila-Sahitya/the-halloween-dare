@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+
+* {
+  transition: all 0.6s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-out {
+  opacity:0;
+  transform: scale(0.98);
+}
+
+.video-transition {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.video-visible {
+  opacity:1;
+}
+
+.text-transition {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.text-visible {
+  opacity:1;
+  transform:scale(1);
+}
